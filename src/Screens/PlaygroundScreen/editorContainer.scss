@@ -1,0 +1,87 @@
+.root-editor-container{
+    background-color: red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    .editor-header{
+      background-color: #EDEDED;
+      display: flex;
+      justify-content: space-between;
+      button,select{
+        border: none;
+        color: black;
+        background-color: #cccaca;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      select:focus{
+        outline: none;
+      }
+      button{
+        color: #0097D7;
+        background-color: #70c3e7b4;
+        cursor: pointer;
+        transition-duration: 0.5s;
+      }
+      button:hover{
+        background-color: #65b9dd;
+      }
+      .title{
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+    .editor-body{
+      background-color: #0D1117;
+      flex-grow: 1;
+    }
+    .editor-footer{
+      background-color: #FFFFFF;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      button,label{
+        display: flex;
+        align-items: center;
+      }
+      .btn{
+        display: flex;
+        align-items: center;
+        padding: 4px 10px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        gap: 10px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+      }
+      .btn:hover{
+        background-color: #e6deded1;
+      }
+      .btn-run{
+        display: flex;
+        align-items: center;
+        padding: 4px 10px;
+        color: #0097D7;
+        background-color: #70c3e7b4;
+        border: none;
+        border-radius: 4px;
+        gap: 10px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+      }
+      .btn-run:hover{
+        background-color: #65b9dd;
+      }
+    }
+    .editor-left-container,.editor-right-container{
+      display: flex;
+      padding:10px;
+      gap: 10px;
+      align-items: center;
+  
+    }
+    
+  }
+  
