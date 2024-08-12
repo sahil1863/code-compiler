@@ -1,4 +1,4 @@
-import "./Index.scss";
+import "./index.scss";
 import { RightComponent } from "./RightComponent";
 import { Modal } from "../../Providers/Modals/Modal";
 import { useContext } from "react";
