@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import "./Index.scss";
+import "./index.scss";
 import { PlaygroundContext } from "../../../Providers/PlaygroundProvider";
 import { modalConstants, ModalContext } from "../../../Providers/ModalProvider";
 import { useNavigate } from "react-router-dom";
