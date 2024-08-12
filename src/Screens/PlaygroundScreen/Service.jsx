@@ -7,11 +7,11 @@ const languageCodeMap = {
   };
   
   async function getSubmission(tokenId, callback) {
-    const url = `https://judge0-ce.p.rapidapi.com/submissions/${tokenId}?*`;
+    const url = `https://judge0-ce.p.rapidapi.com/submissions/${tokenId}?base64_encoded=true&fields=*`;
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "680dd74169msh2452bd2f7dcd659p12a136jsn46f35becfe51",
+        "x-rapidapi-key": "0be74671f0mshf7dd6016a879ef9p11caacjsn002cb2dd108b",
         "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
       },
     };
@@ -31,7 +31,7 @@ const languageCodeMap = {
     const httpOptions = {
       method: "POST",
       headers: {
-        "x-rapidapi-key": "680dd74169msh2452bd2f7dcd659p12a136jsn46f35becfe51",
+        "x-rapidapi-key": "0be74671f0mshf7dd6016a879ef9p11caacjsn002cb2dd108b",
         "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
         
         "Content-Type": "application/json",

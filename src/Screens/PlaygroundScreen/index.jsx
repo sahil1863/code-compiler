@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import "./index.scss";
+import "./Index.scss";
 import { EditorContainer } from "./EditorContainer";
 import { useCallback, useState } from "react";
 import { makeSubmission } from "./Service";
