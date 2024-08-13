@@ -1,5 +1,5 @@
 import { useState, useRef, useContext } from "react";
-import "./EditorContainer.scss";
+import "./editorContainer.scss";
 import { Editor } from "@monaco-editor/react";
 import { PlaygroundContext } from "../../Providers/PlaygroundProvider";
 import { makeSubmission } from "./Service";
