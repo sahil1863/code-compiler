@@ -15,7 +15,7 @@ export const HomeScreen = () => {
       <div className="left-container">
         <div className="items-container">
           <img src="logo.png" />
-          <h1>Budpiler</h1>
+          <h1>CodeCraft</h1>
           <h2>Code.Compile.Debug</h2>
           <button onClick={openCreatePlaygroundModal}>
             <span className="material-symbols-outlined">add</span>

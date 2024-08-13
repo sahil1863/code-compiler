@@ -77,7 +77,7 @@ export const PlaygroundScreen = () => {
     <div className="playground-container">
       <div className="header-container">
         <img src="/logo.png" onClick={handleOnClick} />
-        <h2 onClick={handleOnClick}>Budpiler</h2>
+        <h2 onClick={handleOnClick}>CodeCraft</h2>
       </div>
       <div className="content-container">
         <div className="editor-container">
