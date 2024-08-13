@@ -29,22 +29,55 @@ Currently, two official plugins are available:
   # Folder Sturture
   
 {
+
+
   title: "folder",
+
+  
     id: "uniq_id",
+
+    
     files: [
+
+    
       {
+
+      
         id:'uniq_id',
+
+        
         title: 'index',
+
+        
         language: 'cpp',
+
+        
         code:'cout<<"hello";'
+
+        
       },
+
+      
       {
+
+      
         id:'uniq_id',
+
+        
         title: 'test',
+
+        
       language: 'java',
+
+      
       code:'"wassup'
+
+      
       }
+
+      
     ]
+    
       
 }
 
