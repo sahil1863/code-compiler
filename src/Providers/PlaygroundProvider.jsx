@@ -36,13 +36,11 @@ export const defaultCodes = {
   ["javascript"]: `console.log("javascript script")`,
 
   ["java"]: `
-  class Test
-{
-    public static void main(String []args)
-    {
-        System.out.println("My First Java Program.");
-    }
-};`,
+ public class Main {
+  public static void main(String[] args) {
+      System.out.println("Hello, World!");
+  }
+}`,
 
   ["python"]: `print("write here...")`,
 };
