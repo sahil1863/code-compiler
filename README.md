@@ -26,10 +26,9 @@ Currently, two official plugins are available:
 - React Router -> For routing.
 - MonacoEditor -> for compiling of code
 
-  # Folder Sturture
+# Folder Sturture
   
 {
-
 
   title: "folder",
 
@@ -77,7 +76,6 @@ Currently, two official plugins are available:
 
       
     ]
-    
       
 }
 
