@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import "./CreatePlaygroundModal.scss";
+import "./createPlaygroundModal.scss";
 import { ModalContext } from "../ModalProvider";
 import { v4 } from "uuid";
 import { defaultCodes, PlaygroundContext } from "../PlaygroundProvider";
